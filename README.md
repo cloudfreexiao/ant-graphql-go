@@ -1,4 +1,4 @@
-# go-gin-graphql-template
+# an-graphql-go
 
 GraphQL API server in golang to get linux system info.
 
@@ -311,6 +311,5 @@ curl -X POST -H 'Content-Type: application/json' -d '{"query": "{ user(uid:\"0\"
 - ps -elf | grep nginx | grep -w '20:58' | grep -v grep | wc -l
 - netstat -anp | grep 9527
 - 
-- [x] Add orm  ([orm](https://github.com/go-orm/xorm))
 - [x] Add mongodb ([mongodb-driver](https://github.com/mongodb/mongo-go-driver))
 - [x] Add redis ([redis](https://github.com/go-redis/redis))
