@@ -1,0 +1,8 @@
+/main
+/graphql/schema/bindata.go
+
+.vscode
+*.so
+*.log
+*.DS_Store
+.DS_Store

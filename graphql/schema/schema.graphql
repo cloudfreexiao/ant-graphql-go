@@ -1,0 +1,24 @@
+scalar Uint64
+
+schema {
+    query: Query
+    mutation: Mutation
+}
+type Query {
+    user(uid: ID!): User
+    userByName(name: String!): User
+    users: [User]
+    cpu(id: ID!): CPU
+    cpus: [CPU]
+    memory: Memory
+    ifaces: [Iface]
+    iface(name: String!): Iface
+    service(name: String!): Service
+}
+
+type Mutation {
+    startService(name: String!): Service
+    stopService(name: String!): Service
+    enableService(name: String!): Service
+    disableService(name: String!): Service
+}
