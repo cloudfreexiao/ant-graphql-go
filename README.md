@@ -5,11 +5,6 @@ GraphQL API server in golang to get linux system info.
 ## Requirement
 
 * golang installed v>=1.11
-* add $GOPATH/bin to $PATH
-
-```
-export PATH=$PATH:$GOPATH/bin
-```
 
 * install go packages
 
