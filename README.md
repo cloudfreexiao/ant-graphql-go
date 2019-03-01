@@ -13,7 +13,7 @@ go get github.com/msteinert/pam
 go get github.com/spf13/cobra
 ```
 
-* [option] install httpie
+* [option] install [httpie](https://github.com/jakubroztocil/httpie)
 
 ## Usage
 
